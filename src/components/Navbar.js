@@ -92,7 +92,7 @@ const [food ,setfood]=useState()
            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Cusine type</span>
           <div className="font-bold  mb-2">{item?.recipe?.cuisineType}</div>
           <a href={item.recipe?.url} target="blanck"  className="text-gray-700 text-base"> 
-<button className='inline-flex items-center hover:bg- bg-indigo-500  rounded-md text-rose-50'>Get recipe</button>
+<button className='inline-flex items-center hover:bg- bg-indigo-500  py-1 px-2 rounded-md text-rose-50'>Get recipe</button>
           </a>
         </div>
         <div className="px-6 pt-4 pb-2">

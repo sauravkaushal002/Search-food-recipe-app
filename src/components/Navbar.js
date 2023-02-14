@@ -50,9 +50,9 @@ const [food ,setfood]=useState()
     <form>
       
       <div className='inp pr-5'>
-    <input className="bg-gray-200 ml-4" type={"text"}
+    <input className="bg-gray-200 ml-4 px-2" type={"text"}
 
-   placeholder="search here for recipes" onChange={(e)=>(setfood(e.target.value))}/>
+   placeholder="search here for recipes"  onChange={(e)=>(setfood(e.target.value))}/>
    </div>
     </form>
     <button onClick={get} className=" text-white inline-flex items-center bg-indigo-500  border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 hover:text-black rounded mt-4 lg:mb-4 text-base md:mb-4  ">Search
